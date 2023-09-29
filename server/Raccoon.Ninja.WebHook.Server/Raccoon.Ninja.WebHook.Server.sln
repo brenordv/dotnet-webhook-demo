@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.WebHook.Server", "Raccoon.Ninja.WebHook.Server\Raccoon.Ninja.WebHook.Server.csproj", "{2A2F8C68-2932-436B-B6AB-07CABACE7F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.WebHook.Cli.Subscribe", "Raccoon.Ninja.WebHook.Cli.Subscribe\Raccoon.Ninja.WebHook.Cli.Subscribe.csproj", "{3495EC08-F352-4909-B620-23F047A2679F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.WebHook.Cli.Sender", "Raccoon.Ninja.WebHook.Cli.Sender\Raccoon.Ninja.WebHook.Cli.Sender.csproj", "{7AB00053-47D1-406A-9500-AD75673B490D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99. Docs", "99. Docs", "{F3074BDB-64D9-411E-B904-3CACEF518910}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\readme.md = ..\..\readme.md
+		..\..\run-server-test.bat = ..\..\run-server-test.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Server", "00. Server", "{04C6F10C-2E4B-4FF1-B2EE-0D613754D666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Test Clients", "01. Test Clients", "{3FBAE952-8F63-46F5-8994-5DDC64930BF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2F8C68-2932-436B-B6AB-07CABACE7F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2F8C68-2932-436B-B6AB-07CABACE7F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2F8C68-2932-436B-B6AB-07CABACE7F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2F8C68-2932-436B-B6AB-07CABACE7F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3495EC08-F352-4909-B620-23F047A2679F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3495EC08-F352-4909-B620-23F047A2679F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3495EC08-F352-4909-B620-23F047A2679F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3495EC08-F352-4909-B620-23F047A2679F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB00053-47D1-406A-9500-AD75673B490D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB00053-47D1-406A-9500-AD75673B490D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB00053-47D1-406A-9500-AD75673B490D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB00053-47D1-406A-9500-AD75673B490D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AB00053-47D1-406A-9500-AD75673B490D} = {3FBAE952-8F63-46F5-8994-5DDC64930BF5}
+		{3495EC08-F352-4909-B620-23F047A2679F} = {3FBAE952-8F63-46F5-8994-5DDC64930BF5}
+		{2A2F8C68-2932-436B-B6AB-07CABACE7F44} = {04C6F10C-2E4B-4FF1-B2EE-0D613754D666}
+	EndGlobalSection
+EndGlobal
